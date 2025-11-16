@@ -71,7 +71,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: sambhavsurthi/k8-practise-backend-12:latest  # <-- change this
+          image: sambhavsurthi/expense-splitter-backend-12:latest  # <-- change this
           ports:
             - containerPort: 2000
 ---
@@ -110,7 +110,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: sambhavsurthi/k8-practise-frontend-12:latest  # <-- change this
+          image: sambhavsurthi/expense-splitter-frontend-12:latest  # <-- change this
           ports:
             - containerPort: 80
 ---
